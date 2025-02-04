@@ -30,7 +30,7 @@ if st.button('Predict'):
             border-radius: 5px; 
             text-align: center; 
             font-size: 20px; 
-            color: blue;'>
+            color: black;'>
             <strong>The Predicted tip =$ {prediction[0]:.2f}</strong>
         </div>
     """, unsafe_allow_html=True)
