@@ -3,7 +3,7 @@ import pickle as pkl
 import pandas as pd
 
 st.title('Smart Tipper 🤑')
-st.header('Upload the data :')
+st.header('Tell me about the party :')
 
 total_bill = st.number_input('Total Bill Amount', min_value=0.0, max_value=1000.0)
 time = st.selectbox('Time',['Lunch','Dinner'])
