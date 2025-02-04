@@ -2,7 +2,7 @@ import streamlit as st
 import pickle as pkl
 import pandas as pd
 
-st.title('Tips Prediction')
+st.title('Smart Tipper 🤑')
 st.header('Upload the data :')
 
 total_bill = st.number_input('Total Bill Amount', min_value=0.0, max_value=1000.0)
