@@ -5,9 +5,9 @@ import pandas as pd
 st.title('Tips Prediction')
 st.header('Upload the data :')
 
-total_bill = st.number_input('Total Bill Amount')
+total_bill = st.number_input('Total Bill Amount', min_value=0.0, max_value=1000.0)
 time = st.selectbox('Time',['Lunch','Dinner'])
-size = st.number_input('Enter the numnber of people')
+size = st.number_input('Enter the numnber of people', min_value=1, max_value=10)
 
 input_data = {'total_bill':total_bill,'time':time,'size':size}
 
