@@ -31,6 +31,6 @@ if st.button('Predict'):
             text-align: center; 
             font-size: 20px; 
             color: blue;'>
-            <strong>The Predicted tip = {prediction[0]:.2f}</strong>
+            <strong>The Predicted tip =$ {prediction[0]:.2f}</strong>
         </div>
     """, unsafe_allow_html=True)
